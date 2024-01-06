@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --first: aqua;
+    --second: lightgreen;
+}
+body{
+    background-color: gray;
+}
+nav{
+    background-color: var(--first);
+}
+
+ul li{
+   padding: 20px;
+    display: inline;
+    width: 100vw;
+    list-style: none;
+}
+a{
+    
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+@media only screen and ( min-width: 455px){
+ nav{
+    background-color: var(--second);
+ }
+}
+    
